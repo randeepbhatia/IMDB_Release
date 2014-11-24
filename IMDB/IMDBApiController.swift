@@ -79,8 +79,8 @@ class IMDBAPIController
     
     func postRequest() {
         if let apiDelegate = self.delegate?{
-            let image = UIImage(named: "images.jpeg")
-            let imageData = UIImagePNGRepresentation(image)
+            let image = UIImage(named: "Iphone6.jpg")
+            let imageData = UIImageJPEGRepresentation(image, 0.0)
 
             var parameters = [
                 "jobTitle": "Hero"
@@ -92,7 +92,7 @@ class IMDBAPIController
             
             // CREATE AND SEND REQUEST ----------
             
-            let urlRequest = urlRequestWithComponents("http://192.168.1.253:8080/punjit/rest/job/upload", parameters: parameters, imageData: imageData, imageName: "images.jpeg")
+            let urlRequest = urlRequestWithComponents("http://192.168.1.253:8080/punjit/rest/job/upload", parameters: parameters, imageData: imageData, imageName: "Iphone6.jpg")
             
             Alamofire.upload(urlRequest.0, urlRequest.1)
                 .progress { (bytesWritten, totalBytesWritten, totalBytesExpectedToWrite) in

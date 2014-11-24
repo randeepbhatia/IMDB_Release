@@ -17,6 +17,7 @@
 		B22FE3451A1070E800791FE0 /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B22FE3441A1070E800791FE0 /* images.jpeg */; };
 		B235A15D1A12FB8F007F11EC /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = B235A15C1A12FB8F007F11EC /* SwiftyJSON.swift */; };
 		B2DE65A31A18241D008DE502 /* IMDBApiController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DE65A21A18241D008DE502 /* IMDBApiController.swift */; };
+		B2E946101A22ADB3009A3DB7 /* Iphone6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B2E9460F1A22ADB3009A3DB7 /* Iphone6.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -115,6 +116,7 @@
 		B235A15C1A12FB8F007F11EC /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 		B261B9661A15D76200F49FFC /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = "../../Downloads/Alamofire-master/Alamofire.xcodeproj"; sourceTree = "<group>"; };
 		B2DE65A21A18241D008DE502 /* IMDBApiController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMDBApiController.swift; sourceTree = "<group>"; };
+		B2E9460F1A22ADB3009A3DB7 /* Iphone6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Iphone6.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +170,7 @@
 		B22FE3211A106F3400791FE0 /* IMDB */ = {
 			isa = PBXGroup;
 			children = (
+				B2E9460F1A22ADB3009A3DB7 /* Iphone6.jpg */,
 				B21C0E6B1A171B4900E109C3 /* JSONJoy.xcodeproj */,
 				B235A15C1A12FB8F007F11EC /* SwiftyJSON.swift */,
 				B22FE3441A1070E800791FE0 /* images.jpeg */,
@@ -357,6 +360,7 @@
 				B22FE32A1A106F3400791FE0 /* Main.storyboard in Resources */,
 				B22FE3451A1070E800791FE0 /* images.jpeg in Resources */,
 				B22FE32F1A106F3400791FE0 /* LaunchScreen.xib in Resources */,
+				B2E946101A22ADB3009A3DB7 /* Iphone6.jpg in Resources */,
 				B22FE32C1A106F3400791FE0 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
